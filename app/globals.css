@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* ========================================= */
+/* 🎬 PLAYVIBE RED CINEMATIC SYSTEM */
+/* ========================================= */
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  /* Base */
+  --background: #0e0505;
+  --foreground: #ededed;
+
+  /* Primary Red */
+  --color-primary: #e50000;
+  --color-primary-light: #ff2a2a;
+  --color-primary-dark: #b30000;
+
+  /* Subtle neutral accent */
+  /* --color-muted: #9ca3af; */
+  --color-muted: #a1a1a1;
+
+  /* Cinematic Gradient */
+  --gradient-primary: linear-gradient(
+    135deg,
+    #ff2a2a 0%,
+    #e50000 60%,
+    #b30000 100%
+  );
+
+  /* Glow */
+  --glow-primary: 0 0 25px rgba(229, 0, 0, 0.6);
+
+  /* Fonts */
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+/* ========================================= */
+/* 🎨 Tailwind v4 Mapping */
+/* ========================================= */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-muted: var(--color-muted);
+
+  --gradient-primary: var(--gradient-primary);
+}
+
+/* ========================================= */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
