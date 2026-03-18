@@ -32,7 +32,7 @@ const Hero = () => {
           key={movie?.heroImage}
           src={movie?.heroImage ?? "/Movies/hero.avif"}
           alt={movie?.title ?? "hero background"}
-          className={`absolute inset-0 h-full w-full object-cover object-${movie.postion}`}
+          className={`absolute inset-0 h-full w-full object-cover object-${movie.position}`}
         />
 
         {/* Overlay */}
