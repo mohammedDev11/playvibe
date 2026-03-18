@@ -114,7 +114,7 @@ const Hero = () => {
             {content.description}
           </p>
 
-          <Link href="/movies">
+          <Link href="/tv">
             <MainButton
               className="px-5 py-3"
               label={content.buttonText}
