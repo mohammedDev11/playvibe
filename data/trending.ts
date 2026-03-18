@@ -1,3 +1,5 @@
+export const TrendingContent = [{ label: "", href: "#" }];
+
 export type TrendingItemType = "movie" | "tv";
 
 export type TrendingItem = {

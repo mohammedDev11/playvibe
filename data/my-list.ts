@@ -1,5 +1,7 @@
 import type { MediaCardItem } from "@/data/media";
 
+export const MyListContent = [{ label: "", href: "#" }];
+
 export const MyListSection = {
   title: "My List",
   description: "Your saved movies and series — continue watching anytime.",
