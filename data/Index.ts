@@ -392,24 +392,24 @@ export const FooterContent = {
     },
     {
       id: 3,
+      label: "X",
+      href: "#",
+      icon: BsTwitterX,
+      color: "#000000", // X black
+    },
+    {
+      id: 4,
       label: "Facebook",
       href: "#",
       icon: FaFacebookF,
       color: "#1877F2", // Facebook blue
     },
     {
-      id: 4,
+      id: 5,
       label: "YouTube",
       href: "#",
       icon: FaYoutube,
       color: "#FF0000", // YouTube red
-    },
-    {
-      id: 5,
-      label: "X",
-      href: "#",
-      icon: BsTwitterX,
-      color: "#000000", // X black
     },
   ],
 
