@@ -302,7 +302,6 @@ export default function LeftNavbar() {
           group sticky top-0 h-screen shrink-0
           w-[96px] lg:w-[105px] hover:w-[260px]
           overflow-hidden
-          border-r border-white/10
           bg-neutral-950
           px-4 py-6
           transition-[width] duration-300 ease-in-out

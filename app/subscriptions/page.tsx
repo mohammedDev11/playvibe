@@ -8,9 +8,10 @@ import Footer from "../common/Footer";
 
 const page = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col">
       <Header list={SubscriptionsTopNavbarContent} />
-      <main className="flex flex-col gap-24 md:gap-32 lg:gap-28">
+
+      <main className="flex flex-col gap-24 px-4 pb-24 sm:px-6 md:gap-32 md:pb-8 lg:gap-28 lg:px-10">
         <Plan />
         <SubscriptionTable />
         <Contact />

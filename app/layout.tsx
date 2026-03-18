@@ -149,9 +149,10 @@ export default function RootLayout({
         <div className="min-h-screen md:flex">
           <LeftNavbar />
 
-          <main className="min-w-0 flex-1 px-4 pb-24 sm:px-6 lg:px-10 md:pb-8">
+          {/* <main className="min-w-0 flex-1 px-4 pb-24 sm:px-6 lg:px-10 md:pb-8">
             {children}
-          </main>
+          </main> */}
+          <main className="min-w-0 flex-1">{children}</main>
         </div>
       </body>
     </html>

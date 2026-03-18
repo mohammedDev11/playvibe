@@ -10,10 +10,12 @@ import { TvSeriesTopNavbarContent } from "@/data/TV";
 
 const page = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col">
       <Header list={TvSeriesTopNavbarContent} />
-      <main className="flex flex-col gap-24 md:gap-32 lg:gap-10">
+
+      <main className="flex flex-col gap-24 px-4 pb-24 sm:px-6 md:gap-32 md:pb-8 lg:gap-10 lg:px-10">
         <Hero />
+
         <Popular />
         <Trending />
         <TopRated />

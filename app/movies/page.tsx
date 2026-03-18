@@ -9,12 +9,14 @@ import { MoviesTopNavbarContent } from "@/data/Movies";
 
 const page = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col">
       <Header list={MoviesTopNavbarContent} />
-      <main className="flex flex-col gap-24 md:gap-32 lg:gap-10">
+
+      <main className="flex flex-col gap-24 px-4 pb-24 sm:px-6 md:gap-32 md:pb-8 lg:gap-10 lg:px-10">
         <div className="-mt-8">
           <Hero />
         </div>
+
         <Popular />
         <Trending />
         <TopRated />

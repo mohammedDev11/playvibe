@@ -8,13 +8,15 @@ import SupportPosters from "./SupportPosters";
 
 const page = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col">
       <Header list={SupportTopNavbarContent} />
-      <main className="flex flex-col gap-24 md:gap-32 lg:gap-28">
-        <div className="grid grid-cols-1 gap-10 xl:grid-cols-[420px_1fr] items-start">
+
+      <main className="flex flex-col gap-24 px-4 pb-24 sm:px-6 md:gap-32 md:pb-8 lg:gap-28 lg:px-10">
+        <div className="grid grid-cols-1 items-start gap-10 xl:grid-cols-[420px_1fr]">
           <SupportPosters />
           <Form />
         </div>
+
         <Questions />
         <Footer />
       </main>

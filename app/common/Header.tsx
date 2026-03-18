@@ -98,7 +98,6 @@ const Header = ({ list }: HeaderProps) => {
       className="
         sticky top-0 z-30
         w-full
-        border-b border-white/10
         bg-neutral-950
         px-4 py-4
         sm:px-6 sm:py-5
