@@ -349,7 +349,7 @@ const MediaLibrarySection = ({
             </div>
 
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-              <div className="flex items-center gap-2 rounded-2xl bg-neutral-950 p-2">
+              <div className="flex items-center gap-2  justify-between rounded-2xl bg-neutral-950 p-2 w-52">
                 <button
                   type="button"
                   onClick={() => setActiveType("movie")}
