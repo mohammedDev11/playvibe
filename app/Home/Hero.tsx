@@ -81,7 +81,7 @@ const Hero = () => {
 
   return (
     <section className="w-full overflow-hidden">
-      <div className="mx-auto lg:mt-10 mt-32  flex w-full max-w-6xl flex-col items-center px-4 sm:px-6">
+      <div className="mx-auto lg:mt-10 mt-28  flex w-full max-w-6xl flex-col items-center px-4 sm:px-6">
         {/* Laptop */}
         <div className="relative w-full max-w-[900px]">
           <Image
