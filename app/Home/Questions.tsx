@@ -34,7 +34,9 @@ const Questions = () => {
       </header>
 
       <Faq allowMultiple={false}>
-        <div className="flex items-start justify-between gap-2">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-2">
+          {" "}
+          {/* Left */}
           <div className="flex flex-col items-center gap-3">
             {HomeFaqQuestions1.map((q) => (
               <Faq.Item key={q.id} id={`faq-${q.id}`} title={q.question}>
@@ -42,6 +44,7 @@ const Questions = () => {
               </Faq.Item>
             ))}
           </div>
+          {/* Right */}
           <div className="flex flex-col items-center gap-3">
             {HomeFaqQuestions2.map((q) => (
               <Faq.Item key={q.id} id={`faq-${q.id}`} title={q.question}>
